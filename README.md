@@ -1,6 +1,11 @@
-# devopsirc.github.io
+# DevOps IRC
 
-This template should help get you started developing with Vue 3 in Vite.
+Offical website for the Kaloom-TELUS ÉTS Industrial Research Chair in DevOps.
+
+## Requirements
+
+- [Vue.js 3](https://vuejs.org/guide/introduction.html)
+- [Node.js ^16.0](https://nodejs.org/en/download)
 
 ## Recommended IDE Setup
 
