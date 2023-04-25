@@ -6,7 +6,7 @@ import TheNavBar from "@/components/navbar/TheNavBar.vue";
 <template>
   <div class="bg-white md:mx-48 xl:mx-auto max-w-7xl">
     <TheNavBar />
-    <div class="pt-14 md:pt-20">
+    <div class="pt-14 md:pt-14">
       <RouterView />
     </div>
   </div>
