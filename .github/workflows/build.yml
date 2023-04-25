@@ -1,16 +1,16 @@
 name: Build Pages
 on: [push]
 permissions:
-    contents: write
+  contents: write
 jobs:
   build_pages:
     runs-on: ubuntu-latest
     name: Build Pages
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Pages
-      uses: xRealNeon/VuePagesAction@1.0.1
-      with:
-        username: 'devopsirc'
-        reponame: 'devopsirc.github.io'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+      - uses: actions/checkout@v2
+      - id: Build-Pages
+        uses: xRealNeon/VuePagesAction@1.0.1
+        with:
+          username: 'devopsirc'
+          reponame: 'devopsirc.github.io'
+          token: ${{ secrets.GITHUB_TOKEN }}
