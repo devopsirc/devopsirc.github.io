@@ -14,8 +14,12 @@
     }
 }
 
+.nav-default {
+    @apply flex items-center !px-10 !h-20 space-x-4 bg-red-600 text-white top-0 !mx-0 !mt-2 w-full
+}
+
 .nav-item {
-    @apply px-3 py-2 !text-white text-lg bg-transparent hover:nav-item-selected hover:cursor-pointer
+    @apply px-3 py-2 text-xl bg-transparent hover:nav-item-selected hover:cursor-pointer
 }
 
 ::-webkit-scrollbar-track

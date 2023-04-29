@@ -1,9 +1,7 @@
 <template>
-  <nav
-    class="flex items-center !px-10 !h-20 space-x-4 bg-red-600 fixed-top top-0 !mx-0 !mt-0 w-full"
-  >
+  <nav class="nav-default fixed-top">
     <div class="w-full">
-      <h1 class="text-2xl font-bold text-white">DevOps IRC</h1>
+      <h1 class="text-3xl font-bold">DevOps IRC</h1>
     </div>
     <div class="flex justify-end items-center w-full h-full">
       <router-link
