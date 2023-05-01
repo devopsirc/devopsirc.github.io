@@ -5,7 +5,7 @@ import TheMobileNavBar from '@/components/navbar/mobile/TheMobileNavBar.vue'
 
 <template>
   <div>
-    <TheDefaultNavBar class="hidden md:flex" />
-    <TheMobileNavBar class="md:hidden" />
+    <TheDefaultNavBar class="!hidden md:!flex" />
+    <TheMobileNavBar class="flex md:hidden" />
   </div>
 </template>
