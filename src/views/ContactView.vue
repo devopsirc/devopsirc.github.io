@@ -5,8 +5,8 @@
       <div class="mt-4 text-lg grid md:grid-cols-2">
         <div>
           <p>
-            DevOps Industrial Research Chair <br />
-            Laboratoire en Architecture des Systèmes Informatiques <br />
+            Kaloom-TELUS Industrial Research Chair in DevOps <br />
+            Laboratoire en Architecture des Systèmes Informatiques (LASI) <br />
             Department of Software and IT Engineering <br />
             École de technologie supérieure | ÉTS Montréal <br />
             1100 Rue Notre-Dame Ouest, Office A-4469, Montréal (Québec), H3C 1K3
@@ -37,10 +37,20 @@
       <h1 class="font-bold text-3xl">Join Us</h1>
       <p class="text-lg mt-4">
         Thanks for considering the Kaloom-TELUS ETS Industrial Research Chair in DevOps. We are
-        currently recruiting highly talented people on a variety of topics related to the
+        always looking for highly talented people to work on a variety of topics related to the
         improvement of DevOps processes. If you are interested in joining our research group as a
         graduate student, please take a look at our
         <router-link class="underline" to="/publications">latest publications</router-link>.
+      </p>
+      <p class="text-lg mt-4">
+        As a graduate student, you must have a very strong background in software engineering, a
+        good knowledge of DevOps practices and metrics (CI/CD pipelines, Merge Requests, Code Review, Containerization, etc.), and skills in
+        Machine Learning technics (Random Forest, Gradient Boosting Trees, Logistic Regression, etc.).
+      </p>
+      <p class="text-lg mt-4">
+        If your research interests strongly overlap the ones of the DevOps IRC research group,
+        please contact Pr. Francis Bordeleau via email (francis.bordeleau@etsmtl.ca) with your
+        updated resume, transcripts, and a one-page motivation letter.
       </p>
       <p class="text-lg mt-4"></p>
     </div>
