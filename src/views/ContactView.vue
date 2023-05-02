@@ -18,7 +18,7 @@
             <span class="font-bold">Email:</span> francis.bordeleau@etsmtl.ca
           </p>
         </div>
-        <div class="h-72 w-full bg-white">
+        <div class="h-72 w-full bg-white mt-8 md:mt-0">
           <iframe
             width="100%"
             height="100%"
