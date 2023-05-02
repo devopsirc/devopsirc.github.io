@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="@/assets/images/ets.jpg" class="h-72 w-full mt-2 md:mt-0" alt="Kaloom" />
+    <img src="@/assets/images/ets.jpg" class="h-48 md:h-96 w-full mt-2 md:mt-0" alt="Kaloom" />
     <h1 class="text-3xl mt-12 font-bold">Kaloom-TELUS Industrial Research Chair in DevOps</h1>
     
     
