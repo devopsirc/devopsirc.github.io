@@ -1,8 +1,8 @@
 <template>
   <div>
     <img src="@/assets/images/ets.jpg" class="h-72 w-full mt-2 md:mt-0" alt="Kaloom" />
-    <h1 class="text-3xl mt-8 font-bold">Kaloom-TELUS Industrial Research Chair in DevOps</h1>
-    <h2 class="text-2xl my-4 mb-8">Helping companies react quickly and train the workforce they need</h2>
+    <h1 class="text-3xl mt-12 font-bold">Kaloom-TELUS Industrial Research Chair in DevOps</h1>
+    <h2 class="text-2xl my-4 mb-12">Helping companies react quickly and train the workforce they need</h2>
 
     <p class="text-lg my-4">
       Led by researcher Francis Bordeleau and industry partners Kaloom and TELUS, the Kaloom-TELUS
@@ -25,7 +25,7 @@
       several types of platforms and in various environments. The ongoing research works in the team cover the
       following topics: <br />
 
-      <ul class="list list-disc text-lg mx-4 my-4">
+      <ul class="list list-disc text-lg mx-8 my-4">
         <li>Build Optimization</li>
         <li>Intelligent DevOps (Anomaly detection, Failure diagnosis)</li>
         <li>AI for CI/CD pipelines</li>

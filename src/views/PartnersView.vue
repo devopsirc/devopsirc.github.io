@@ -1,5 +1,5 @@
 <template>
-  <div class="partners">
+  <div class="partners mb-20">
     <h1 class="font-bold text-3xl">Our partners</h1>
     <p class="text-lg mt-4">
       We are working on the improvement of DevOps processes in the context of Software-Defined
@@ -7,7 +7,7 @@
       telecommunications. Please feel free to
       <router-link class="underline" to="/contact">contact us</router-link> if interested in a partnership with us.
     </p>
-    <div class="mt-12 md:mt-20 grid md:grid-cols-2">
+    <div class="my-12 md:my-20 grid md:grid-cols-2">
       <div class="flex justify-center">
         <a href="https://www.kaloom.com/" target="_blank">
           <img src="@/assets/images/kaloom.svg" class="h-36" alt="Kaloom" />
