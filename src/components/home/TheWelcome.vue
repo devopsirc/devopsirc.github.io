@@ -27,7 +27,7 @@
 
       <ul class="list list-disc text-lg mx-4 my-4">
         <li>Build Optimization</li>
-        <li>Intelligent DevOps (Anomaly Detection, Failure Diagnosis)</li>
+        <li>Intelligent DevOps (Anomaly detection, Failure diagnosis)</li>
         <li>AI for CI/CD pipelines</li>
         <li>Merge Request Analytics</li>
         <li>ML4SE (Machine Learning for Software Engineening)</li>
