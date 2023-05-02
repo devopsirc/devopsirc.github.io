@@ -7,7 +7,7 @@ const routes = useRouter().options.routes;
 
 <template>
   <nav
-    class="flex items-center shadow-md !px-4 !h-14 space-x-4 bg-red-600 fixed-top top-0 !mx-0 !mt-0 w-full"
+    class="flex items-center shadow-md !px-4 !h-14 space-x-4 bg-red-600 !fixed-top top-0 !mx-0 !mt-0 w-full"
   >
     <div class="flex items-center w-full">
       <TheMobileNavView :routes="routes" />
