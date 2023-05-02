@@ -1,6 +1,6 @@
 <template>
   <div class="partners mb-20">
-    <h1 class="font-bold text-3xl">Our partners</h1>
+    <h1 class="font-bold text-3xl">Partners</h1>
     <p class="text-lg mt-4">
       We are working on the improvement of DevOps processes in the context of Software-Defined
       Networks (SDN) in close collaboration with our industrials partners in the domain of

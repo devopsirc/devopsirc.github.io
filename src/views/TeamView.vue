@@ -12,7 +12,7 @@ const getImagePath = (name) => {
 </script>
 <template>
   <div class="team mb-16">
-    <h1 class="font-bold text-3xl">Our team</h1>
+    <h1 class="font-bold text-3xl">Team</h1>
     <p class="text-xl">Professors, Students, and Interns</p>
     
     <div class="grid grid-cols-1 md:grid-cols-4 mt-12">
