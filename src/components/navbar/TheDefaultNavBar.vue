@@ -1,3 +1,9 @@
+<script setup>
+import { useRouter } from 'vue-router';
+
+const routes = useRouter().options.routes;
+</script>
+
 <template>
   <nav class="nav-default fixed-top">
     <div class="w-full">
@@ -5,7 +11,7 @@
     </div>
     <div class="flex justify-end items-center w-full h-full">
       <router-link
-        v-for="route in this.$router.options.routes"
+        v-for="route in routes"
         :key="route.id"
         :to="route.path"
         class="nav-item"
