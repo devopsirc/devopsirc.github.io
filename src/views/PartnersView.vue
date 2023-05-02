@@ -1,5 +1,5 @@
 <template>
-  <div class="team mx-8 md:mx-auto">
+  <div class="partners">
     <h1 class="font-bold text-3xl">Our partners</h1>
     <p class="text-lg mt-4">
       We are working on the improvement of DevOps processes in the context of Software-Defined
