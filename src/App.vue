@@ -1,6 +1,7 @@
 <script setup>
 import { RouterView } from "vue-router";
 import TheNavBar from "@/components/navbar/TheNavBar.vue";
+import TheFooter from "@/components/common/TheFooter.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import TheNavBar from "@/components/navbar/TheNavBar.vue";
     <div class="py-16 md:py-10 md:py-auto mx-4 md:mx-auto">
       <RouterView />
     </div>
+    <TheFooter />
   </div>
 </template>
 
