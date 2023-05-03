@@ -1,8 +1,8 @@
 <script setup>
-import { useRoute, useRouter } from 'vue-router';
+import { useRouter } from 'vue-router';
 
 const routes = useRouter().options.routes;
-const currentRoutePath = useRoute().path
+
 </script>
 
 <template>
@@ -16,7 +16,7 @@ const currentRoutePath = useRoute().path
         :key="route.id"
         :to="route.path"
         class="nav-item"
-        :class="{ 'nav-item-selected': currentRoutePath === route.path }"
+        :class="{ 'nav-item-selected': this.$route.path === route.path }"
         >{{ route.name }}
       </router-link>
     </div>
