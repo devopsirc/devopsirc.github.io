@@ -16,7 +16,7 @@ const routes = useRouter().options.routes;
         :key="route.id"
         :to="route.path"
         class="nav-item"
-        :class="{ 'nav-item-selected': this.$route.path === route.path }"
+        :class="{ 'nav-item-selected': false }"
         >{{ route.name }}
       </router-link>
     </div>
