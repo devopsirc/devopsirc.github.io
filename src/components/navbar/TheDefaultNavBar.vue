@@ -1,8 +1,9 @@
 <script setup>
-import { useRouter } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router'
+import { computed } from 'vue'
 
-const routes = useRouter().options.routes;
-
+const routes = useRouter().options.routes
+const path = computed(() => useRoute().path)
 </script>
 
 <template>
@@ -16,7 +17,7 @@ const routes = useRouter().options.routes;
         :key="route.id"
         :to="route.path"
         class="nav-item"
-        :class="{ 'nav-item-selected': false }"
+        :class="{ 'nav-item-selected': path === route.path }"
         >{{ route.name }}
       </router-link>
     </div>
