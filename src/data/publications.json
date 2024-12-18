@@ -1,0 +1,42 @@
+[
+    {
+        "title": "On the Diagnosis of Flaky Job Failures: Understanding and Prioritizing Failure Categories",
+        "authors": "Henri, Aïdasso; Francis, Bordeleau; Ali, Tizghadam",
+        "year": 2025,
+        "type": "Conference",
+        "venue": "International Conference on Software Engineering - Software Engineering in Practice (ICSE'25 SEIP)",
+        "link": ""
+    },
+    {
+        "title": "Building deduplicated model repositories to assess domain-specific languages evolution",
+        "authors": "Alexandre Lachance, Sébastien Mosser",
+        "year": 2024,
+        "type": "Conference",
+        "venue": "International Conference on Model Driven Engineering Languages and Systems (MODELS'24)",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3652620.3688338"
+    },
+    {
+        "title": "Developing a Modular Language Server to Support P4 Developers",
+        "authors": "Sébastien Mosser, Alexandre Lachance",
+        "year": 2023,
+        "type": "Workshop",
+        "venue": "P4 Consortium",
+        "link": "https://macsphere.mcmaster.ca/handle/11375/28857"
+    },
+    {
+        "title": "A Language Engineering Approach to Support the P4 Coding Ecosystem",
+        "authors": "Alexandre Lachance, Sébastien Mosser",
+        "year": 2023,
+        "type": "Workshop",
+        "venue": "P4 Consortium",
+        "link": "https://macsphere.mcmaster.ca/handle/11375/28616"
+    },
+    {
+        "title": "Eat Your Own DevOps: A Model Driven Approach to Justify Continuous Integration Pipelines",
+        "authors": "Corinne Pulgar",
+        "year": 2022,
+        "type": "Conference",
+        "venue": "International Conference on Model Driven Engineering Languages and Systems (MODELS'22)",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3550356.3552395"
+    }
+]
