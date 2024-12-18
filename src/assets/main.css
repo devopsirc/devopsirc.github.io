@@ -12,6 +12,10 @@
     .nav-item-selected {
         @apply underline underline-offset-8
     }
+
+    .badge-base {
+        @apply text-sm font-body me-2 px-2 py-1 rounded
+    }
 }
 
 .nav-default {
