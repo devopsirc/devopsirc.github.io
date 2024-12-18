@@ -18,7 +18,7 @@
     }
 
     .page {
-        @apply pb-20 pt-20 md:pb-10 mx-48 lg:mx-auto xl:mx-auto max-w-7xl
+        @apply pb-20 pt-20 md:pb-10 mx-4 sm:mx-48 lg:mx-auto xl:mx-auto max-w-7xl
     }
 
     a {
