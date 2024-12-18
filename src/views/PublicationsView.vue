@@ -3,7 +3,9 @@ import publications from '@/assets/data/publications.json'
 </script>
 
 <template>
-  <div class="publications mb-20">
+  <div class="page publications mb-20">
+    <h1 class="font-bold text-3xl">Publications</h1>
+    <p class="text-xl"></p>
     <div class="mt-8" v-for="pub in publications" :key="pub.id">
       <div class="flex space-x-8">
         <div class="mt-1 text-lg">{{ pub.year }}</div>

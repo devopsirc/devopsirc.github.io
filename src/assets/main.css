@@ -16,6 +16,18 @@
     .badge-base {
         @apply text-sm font-body me-2 px-2 py-1 rounded
     }
+
+    .page {
+        @apply pb-20 pt-20 md:pb-10 mx-48 lg:mx-auto xl:mx-auto max-w-7xl
+    }
+
+    a {
+        @apply text-red-600
+    }
+
+    a:hover {
+        @apply underline
+    }
 }
 
 .nav-default {

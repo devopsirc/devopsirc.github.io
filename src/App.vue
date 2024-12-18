@@ -5,9 +5,9 @@ import TheFooter from "@/components/common/TheFooter.vue";
 </script>
 
 <template>
-  <div class="bg-white md:mx-48 xl:mx-auto max-w-7xl">
+  <div class="bg-white">
     <TheNavBar />
-    <div class="py-20 md:py-10 md:py-auto mx-4 md:mx-auto">
+    <div>
       <RouterView />
     </div>
     <TheFooter />

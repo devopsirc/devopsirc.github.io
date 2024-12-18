@@ -1,5 +1,5 @@
 <template>
-  <div class="contact mb-20">
+  <div class="page contact mb-20">
     <div id="contact">
       <h1 class="font-bold text-3xl">Contact</h1>
       <div class="mt-4 text-lg grid md:grid-cols-2">

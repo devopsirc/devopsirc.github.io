@@ -9,7 +9,7 @@ const path = computed(() => useRoute().path)
 <template>
   <nav class="nav-default fixed-top">
     <div class="w-full">
-      <h1 class="text-3xl font-bold"><router-link to="/">DevOps IRC</router-link></h1>
+      <h1 class="text-3xl font-bold"><router-link to="/">ETS DevOps IRC</router-link></h1>
     </div>
     <div class="flex justify-end items-center w-full h-full">
       <router-link
@@ -23,3 +23,9 @@ const path = computed(() => useRoute().path)
     </div>
   </nav>
 </template>
+
+<style lang="postcss" scoped>
+a {
+  color: white;
+}
+</style>

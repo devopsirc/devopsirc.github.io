@@ -1,17 +1,17 @@
 <template>
-  <div>
-    <img src="@/assets/images/ets.jpg" class="h-48 md:h-96 w-full mt-2 md:mt-0" alt="Kaloom" />
-    <h1 class="text-3xl mt-12 font-bold">Kaloom-TELUS Industrial Research Chair in DevOps</h1>
-    
-    
+  <div class="">
+    <img src="@/assets/images/ets.jpg" class="h-48 md:h-96 w-full md:mt-0" alt="École de technologie supérieure" />
+    <div class="page !pt-0">
+      <h1 class="text-3xl mt-12 font-bold">Kaloom-TELUS ÉTS Industrial Research Chair in DevOps</h1>
+        
     <div>
-        <h2 class="text-2xl mt-12 mb-4">Helping companies react quickly and train the workforce they need</h2>
+        <h2 class="text-2xl mt-12 mb-4 font-bold">Helping companies react quickly and effectively</h2>
     
         <p class="text-lg my-4">
-        Led by researcher Francis Bordeleau and industry partners Kaloom and TELUS, the Kaloom-TELUS
-        Chair is based on new DevOps engineering approaches and will help entrepreneurs design new IT
-        services 100 times faster than traditional methods. This allows them to react more quickly to
-        the competitive environment, which is currently marked by labour shortages.
+        Led by Dr. Francis Bordeleau at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a>  and in collaboration with industry partners Kaloom and <a href="https://www.telus.com/" target="_blank">TELUS</a>, the Kaloom-TELUS
+        IRC investigate new DevOps engineering approaches that help software organizations design new IT
+        services faster and more efficient than traditional methods. This allows them to react more quickly to
+        the competitive environment, which is also currently marked by labour shortages.
         </p>
 
         <p class="text-lg my-4">
@@ -25,7 +25,7 @@
 
     
     <div>
-        <h2 class="text-2xl mt-12 mb-4">Research Interests</h2>
+        <h2 class="text-2xl mt-12 mb-4 font-bold">Research Areas</h2>
 
         <p class="text-lg my-4">
         Specifially, the research group aims at developing methods and tools to measure, analyze, and
@@ -35,12 +35,13 @@
 
         <ul class="list list-disc text-lg mx-8 my-4">
             <li>Build Optimization</li>
-            <li>Intelligent DevOps (Anomaly detection, Failure diagnosis)</li>
+            <li>Intelligent DevOps (Anomaly Detection, Failure Diagnosis)</li>
             <li>AI for CI/CD pipelines</li>
             <li>Merge Request Analytics</li>
             <li>ML4SE (Machine Learning for Software Engineening)</li>
         </ul>
         </p>
+    </div>
     </div>
   </div>
 </template>
