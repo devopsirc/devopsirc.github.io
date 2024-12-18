@@ -14,11 +14,11 @@
     }
 
     .badge-base {
-        @apply text-sm font-body me-2 px-2 py-1 rounded
+        @apply text-xs font-body me-2 px-1.5 py-1 rounded
     }
 
     .page {
-        @apply pb-20 pt-20 md:pb-10 mx-4 sm:mx-48 lg:mx-auto xl:mx-auto max-w-7xl
+        @apply pb-16 pt-16 md:pb-10 mx-4 sm:mx-48 lg:mx-auto xl:mx-auto max-w-7xl
     }
 
     a {
@@ -35,7 +35,7 @@
 }
 
 .nav-item {
-    @apply px-3 py-2 text-xl bg-transparent hover:nav-item-selected hover:cursor-pointer
+    @apply px-3 py-2 text-lg bg-transparent hover:nav-item-selected hover:cursor-pointer
 }
 
 ::-webkit-scrollbar-track

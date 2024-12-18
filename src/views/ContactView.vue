@@ -6,8 +6,7 @@
         <div>
           <p>
             Kaloom-TELUS Industrial Research Chair in DevOps <br />
-            Laboratoire en Architecture des Systèmes Informatiques (LASI) <br />
-            Department of Software and IT Engineering <br />
+            Software and IT Engineering Department<br />
             École de technologie supérieure | ÉTS Montréal <br />
             1100 Rue Notre-Dame Ouest, Office A-4469, Montréal (Québec), H3C 1K3
           </p>
@@ -36,7 +35,7 @@
     <div class="mt-16" id="join">
       <h1 class="font-bold text-3xl">Join Us</h1>
       <p class="text-lg mt-4">
-        Thanks for considering the Kaloom-TELUS ETS Industrial Research Chair in DevOps. We are
+        Thanks for considering the Kaloom-TELUS ÉTS Industrial Research Chair in DevOps. We are
         always looking for highly talented people to work on a variety of topics related to the
         improvement of DevOps processes. If you are interested in joining our research group as a
         graduate student, please take a look at our
