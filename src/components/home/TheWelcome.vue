@@ -8,7 +8,9 @@ let areas = [
   'Merge Request Analytics',
   'Code Review Exceptions',
   'Build Optimization',
-  'Automated Failure Diagnosis'
+  'Automated Failure Diagnosis',
+  'Software-Defined Networks',
+  'Digital Twin Engineering'
 ]
 </script>
 
@@ -43,7 +45,7 @@ let areas = [
           shortages.
         </p>
 
-        <p class="md:text-lg my-4">
+        <p class="md:text-lg my-4 hidden">
           The DevOps methodology aims to optimize the workflow by creating value for the end user,
           from the initial idea to the deployment of the functionality. It reduces unnecessary
           tasks, accelerates the time to market for products and services, and increases their
@@ -52,11 +54,41 @@ let areas = [
         </p>
 
         <p class="md:text-lg my-4">
-          While DevOps practices are based on the premise and objective of continuous improvement of
-          software products, little effort has been devoted to improving DevOps processes
+          DevOps practices are based on the premise and objective of continuous improvement of
+          software products. However, little effort has been devoted to improving DevOps processes
           themselves. It is on this still little explored research path that the Kaloom-TELUS ÉTS
           IRC in DevOps is venturing with research work covering practical challenges related to
           task estimation, code review, testing, merge request mechanism, CI/CD pipelines, and more.
+        </p>
+      </div>
+
+      <div>
+        <div class="mt-12 mb-4">
+          <h2 class="text-xl md:text-2xl font-bold">DevOps for Agile Network Softwarization</h2>
+          <h4 class="text-lg md:text-xl text-stone-500">
+            Building innovative DevOps tools to streamline development of SDNs
+          </h4>
+        </div>
+
+        <p class="md:text-lg my-4">
+          Software-Defined Networking (SDN) is an approach to network management that uses software
+          abstraction to enable dynamic and programmatically efficient network configuration (<a
+            href="https://en.wikipedia.org/wiki/Software-defined_networking"
+            target="_blank"
+            >Wikipedia</a
+          >). Building SDNs involves transitioning traditional hardware-based networking functions
+          to software-based solutions, which present significant DevOps challenges notably due to
+          poor development tooling support, and managing the complexity of highly dynamic and
+          distributed systems.
+        </p>
+
+        <p class="md:text-lg my-4">
+          The Kaloom-TELUS ÉTS IRC in DevOps is taking on these challenges by developing, in
+          collaboration with <a href="https://www.telus.com/" target="_blank">TELUS</a>, advanced
+          automation tools and frameworks to streamline planning, development, deployment and
+          monitoring processes of SDNs. The research efforts aim to facilitate SDN projects
+          onboarding, reduce operational overhead, enhance reliability, and accelerate innovation in
+          software-defined networking.
         </p>
       </div>
 
@@ -69,10 +101,21 @@ let areas = [
         </div>
 
         <p class="md:text-lg my-4">
-          Digital Twins (DTs) are virtual replicas of physical assets or systems, created using
-          real-time data to simulate their behavior and performance, that deliver insights and
-          enable predictive analysis to help practitioners optimize design, maintenance and
-          operations of their assets.
+          Digital Twins (DTs) are virtual replicas of assets, systems, or processes, that are
+          created using real-time data to simulate their behavior and performance. DTs deliver
+          insights and enable predictive analysis to help practitioners optimize the design,
+          maintenance and operations of their actual twins. Developing DTs poses unique DevOps
+          challenges, including the need to support complex and modular software architectures,
+          integrate robust deployment pipelines, and ensure thorough testing across heterogeneous
+          source code stemming for the variety of expertise areas involved: IoT, data management, 3D
+          models, AI models, and more.
+        </p>
+
+        <p class="md:text-lg my-4">
+          In collaboration with the <a href="https://www.etsmtl.ca/etudier-a-lets/departements/departement-genie-construction" target="_blank">Construction Engineering Department</a> at ÉTS, the research group
+          addresses these hurdles by designing software frameworks that promote
+          modularity and reusability to ultimately enhance the
+          reusability, reliability, and security of DT solutions.
         </p>
       </div>
 
@@ -86,11 +129,11 @@ let areas = [
           exhaustive, the following topics: <br />
         </p>
 
-        <ul class="table md:text-lg space-y-2 space-x-2 my-4">
+        <ul class="table md:text-lg space-y-2 my-4 -ml-1.5">
           <li
             v-for="area in areas"
             :key="area"
-            class="bg-orange-600 text-orange-50 rounded py-1 px-2 inline-block"
+            class="bg-orange-600 text-orange-50 rounded py-1 px-2 mx-1.5 inline-block"
           >
             {{ area }}
           </li>
