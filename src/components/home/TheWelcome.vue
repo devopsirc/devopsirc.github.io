@@ -1,47 +1,102 @@
+<script setup>
+let areas = [
+  'Artificial Intelligence for Software Engineering (AI4SE)',
+  'Mining Software Repositories',
+  'Task Estimation',
+  'LLMs for Code Generation',
+  'LLMs for Test Cases Generation',
+  'Merge Request Analytics',
+  'Code Review Exceptions',
+  'Build Optimization',
+  'Automated Failure Diagnosis'
+]
+</script>
+
 <template>
   <div class="">
-    <img src="@/assets/images/ets.jpg" class="h-48 md:h-96 w-full md:mt-0" alt="École de technologie supérieure" />
+    <img
+      src="@/assets/images/ets.jpg"
+      class="h-48 md:h-96 w-full md:mt-0"
+      alt="École de technologie supérieure"
+    />
     <div class="page !pt-0">
-      <h1 class="text-3xl mt-12 font-bold">Kaloom-TELUS ÉTS Industrial Research Chair in DevOps</h1>
-        
-    <div>
-        <h2 class="text-2xl mt-12 mb-4 font-bold">Helping companies react quickly and effectively</h2>
-    
-        <p class="text-lg my-4">
-        Led by Dr. Francis Bordeleau at <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a>  and in collaboration with industry partners Kaloom and <a href="https://www.telus.com/" target="_blank">TELUS</a>, the Kaloom-TELUS
-        IRC investigate new DevOps engineering approaches that help software organizations design new IT
-        services faster and more efficient than traditional methods. This allows them to react more quickly to
-        the competitive environment, which is also currently marked by labour shortages.
+      <h1 class="text-2xl md:text-3xl lg:text-4xl mt-12 font-semibold">
+        Kaloom-TELUS ÉTS Industrial Research Chair in DevOps
+      </h1>
+
+      <div>
+        <div class="mt-12 mb-4">
+          <h2 class="text-xl md:text-2xl font-bold">Intelligent DevOps</h2>
+          <h4 class="text-lg md:text-xl text-stone-500">
+            Helping companies react quickly and effectively
+          </h4>
+        </div>
+
+        <p class="md:text-lg my-4">
+          Led by Dr. Francis Bordeleau at
+          <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> and
+          industry partners Kaloom and <a href="https://www.telus.com/" target="_blank">TELUS</a>,
+          the Kaloom-TELUS ÉTS IRC in DevOps investigate new DevOps engineering approaches
+          leveraging data science and AI, to help software organizations design novel IT services
+          that are faster and more efficient than traditional methods. This allows them to react
+          more quickly to the competitive environment, which is also currently marked by labour
+          shortages.
         </p>
 
-        <p class="text-lg my-4">
-        The DevOps methodology aims to optimize the workflow by creating value for the end user, from
-        the initial idea to the deployment of the functionality. It reduces unnecessary tasks,
-        accelerates the time to market for products and services, and increases their quality. It also
-        builds on the collaboration between the various parties involved in the development of
-        reliable, high-performance products.
+        <p class="md:text-lg my-4">
+          The DevOps methodology aims to optimize the workflow by creating value for the end user,
+          from the initial idea to the deployment of the functionality. It reduces unnecessary
+          tasks, accelerates the time to market for products and services, and increases their
+          quality. It also builds on the collaboration between the various parties involved in the
+          development of reliable, high-performance products.
         </p>
-    </div>
 
-    
-    <div>
-        <h2 class="text-2xl mt-12 mb-4 font-bold">Research Areas</h2>
+        <p class="md:text-lg my-4">
+          While DevOps practices are based on the premise and objective of continuous improvement of
+          software products, little effort has been devoted to improving DevOps processes
+          themselves. It is on this still little explored research path that the Kaloom-TELUS ÉTS
+          IRC in DevOps is venturing with research work covering practical challenges related to
+          task estimation, code review, testing, merge request mechanism, CI/CD pipelines, and more.
+        </p>
+      </div>
 
-        <p class="text-lg my-4">
-        Specifially, the research group aims at developing methods and tools to measure, analyze, and
-        improve various aspects of DevOps processes, as well as to facilitate their deployment on
-        several types of platforms and in various environments. The ongoing research works in the team cover the
-        following topics: <br />
+      <div>
+        <div class="mt-12 mb-4">
+          <h2 class="text-xl md:text-2xl font-bold">Collaboration on Engineering Digital Twins</h2>
+          <h4 class="text-lg md:text-xl text-stone-500">
+            Leveraging DevOps approaches to facilitate DTs engineering
+          </h4>
+        </div>
 
-        <ul class="list list-disc text-lg mx-8 my-4">
-            <li>Build Optimization</li>
-            <li>Intelligent DevOps (Anomaly Detection, Failure Diagnosis)</li>
-            <li>AI for CI/CD pipelines</li>
-            <li>Merge Request Analytics</li>
-            <li>ML4SE (Machine Learning for Software Engineening)</li>
+        <p class="md:text-lg my-4">
+          Digital Twins (DTs) are virtual replicas of physical assets or systems, created using
+          real-time data to simulate their behavior and performance, that deliver insights and
+          enable predictive analysis to help practitioners optimize design, maintenance and
+          operations of their assets.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-xl md:text-2xl mt-12 mb-4 font-bold">Research Areas</h2>
+
+        <p class="md:text-lg my-4">
+          Specifially, the research group aims at developing methods and tools to measure, analyze,
+          and improve various aspects of DevOps processes, as well as to facilitate their deployment
+          in various environments. The ongoing research works in the team cover, without being
+          exhaustive, the following topics: <br />
+        </p>
+
+        <ul class="table md:text-lg space-y-2 space-x-2 my-4">
+          <li
+            v-for="area in areas"
+            :key="area"
+            class="bg-orange-600 text-orange-50 rounded py-1 px-2 inline-block"
+          >
+            {{ area }}
+          </li>
+          <br />
         </ul>
-        </p>
-    </div>
+      </div>
     </div>
   </div>
 </template>
