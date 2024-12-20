@@ -20,7 +20,7 @@ let areas = [
   <div class="">
     <img
       src="@/assets/images/ets.jpg"
-      class="h-48 md:h-96 w-full md:mt-0"
+      class="h-56 md:h-96 w-full md:mt-0"
       alt="École de technologie supérieure"
     />
     <div class="page !pt-0">
