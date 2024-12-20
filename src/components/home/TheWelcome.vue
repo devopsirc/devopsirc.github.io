@@ -1,6 +1,8 @@
 <script setup>
+import ScrollTransition from '@/components/common/ScrollTransition.vue'
+
 let areas = [
-  'Artificial Intelligence for Software Engineering (AI4SE)',
+  'Artificial Intelligence for Software Engineering',
   'Mining Software Repositories',
   'Task Estimation',
   'LLMs for Code Generation',
@@ -10,7 +12,7 @@ let areas = [
   'Build Optimization',
   'Automated Failure Diagnosis',
   'Software-Defined Networks',
-  'Digital Twin Engineering'
+  'Digital Twins Engineering'
 ]
 </script>
 
@@ -22,17 +24,26 @@ let areas = [
       alt="École de technologie supérieure"
     />
     <div class="page !pt-0">
-      <h1 class="text-2xl md:text-3xl lg:text-4xl mt-12 font-semibold">
-        Kaloom-TELUS ÉTS Industrial Research Chair in DevOps
+      <h1
+        class="text-2xl md:text-3xl lg:text-4xl mt-4 md:mt-12 font-semibold animate-slidein opacity-0 [--slidein-delay:300ms]"
+      >
+        Kaloom-TELUS ÉTS Industrial Research Chair in <span class="text-orange-600">DevOps</span>
       </h1>
 
       <div>
-        <div class="mt-12 mb-4">
-          <h2 class="text-xl md:text-2xl font-bold">Intelligent DevOps</h2>
-          <h4 class="text-lg md:text-xl text-stone-500">
-            Helping companies react quickly and effectively
-          </h4>
-        </div>
+        <ScrollTransition
+          transition="vertical"
+          opacityEffect="true"
+          translateEffect="true"
+          moreDelay="true"
+        >
+          <div class="mt-6 md:mt-12 mb-4">
+            <h2 class="text-xl md:text-2xl font-bold">Intelligent DevOps through AI and Analytics </h2>
+            <h4 class="text-lg md:text-xl text-stone-500">
+              Helping companies react more quickly and effectively
+            </h4>
+          </div>
+        </ScrollTransition>
 
         <p class="md:text-lg my-4">
           Led by Dr. Francis Bordeleau at
@@ -63,12 +74,14 @@ let areas = [
       </div>
 
       <div>
-        <div class="mt-12 mb-4">
-          <h2 class="text-xl md:text-2xl font-bold">DevOps for Agile Network Softwarization</h2>
-          <h4 class="text-lg md:text-xl text-stone-500">
-            Building innovative DevOps tools to streamline development of SDNs
-          </h4>
-        </div>
+        <ScrollTransition transition="vertical" opacityEffect="true" translateEffect="true">
+          <div class="mt-6 md:mt-12 mb-4">
+            <h2 class="text-xl md:text-2xl font-bold">DevOps for Agile Network Softwarization</h2>
+            <h4 class="text-lg md:text-xl text-stone-500">
+              Building innovative DevOps tools to streamline development of SDNs
+            </h4>
+          </div>
+        </ScrollTransition>
 
         <p class="md:text-lg my-4">
           Software-Defined Networking (SDN) is an approach to network management that uses software
@@ -93,12 +106,16 @@ let areas = [
       </div>
 
       <div>
-        <div class="mt-12 mb-4">
-          <h2 class="text-xl md:text-2xl font-bold">Collaboration on Engineering Digital Twins</h2>
-          <h4 class="text-lg md:text-xl text-stone-500">
-            Leveraging DevOps approaches to facilitate DTs engineering
-          </h4>
-        </div>
+        <ScrollTransition transition="vertical" opacityEffect="true" translateEffect="true">
+          <div class="mt-6 md:mt-12 mb-4 animate-slidein opacity-0 [--slidein-delay:700ms]">
+            <h2 class="text-xl md:text-2xl font-bold">
+              Collaboration on Engineering Digital Twins
+            </h2>
+            <h4 class="text-lg md:text-xl text-stone-500">
+              Leveraging DevOps approaches to facilitate DTs engineering
+            </h4>
+          </div>
+        </ScrollTransition>
 
         <p class="md:text-lg my-4">
           Digital Twins (DTs) are virtual replicas of assets, systems, or processes, that are
@@ -112,15 +129,27 @@ let areas = [
         </p>
 
         <p class="md:text-lg my-4">
-          In collaboration with the <a href="https://www.etsmtl.ca/etudier-a-lets/departements/departement-genie-construction" target="_blank">Construction Engineering Department</a> at ÉTS, the research group
-          addresses these hurdles by designing software frameworks that promote
-          modularity and reusability to ultimately enhance the
-          reusability, reliability, and security of DT solutions.
+          In collaboration with the
+          <a
+            href="https://www.etsmtl.ca/etudier-a-lets/departements/departement-genie-construction"
+            target="_blank"
+            >Construction Engineering Department</a
+          >
+          at ÉTS, the research group addresses these hurdles by designing software frameworks that
+          promote modularity and reusability to ultimately enhance the reusability, reliability, and
+          security of DT solutions.
         </p>
       </div>
 
       <div>
-        <h2 class="text-xl md:text-2xl mt-12 mb-4 font-bold">Research Areas</h2>
+        <ScrollTransition transition="vertical" opacityEffect="true" translateEffect="true">
+          <div class="mt-6 md:mt-12 mb-4">
+            <h2 class="text-xl md:text-2xl font-bold">Research Areas</h2>
+          <h4 class="text-lg md:text-xl text-stone-500">
+            Extending the boundaries of cross-disciplinary research fields
+          </h4>
+          </div>
+        </ScrollTransition>
 
         <p class="md:text-lg my-4">
           Specifially, the research group aims at developing methods and tools to measure, analyze,
@@ -133,7 +162,7 @@ let areas = [
           <li
             v-for="area in areas"
             :key="area"
-            class="bg-orange-600 text-orange-50 rounded py-1 px-2 mx-1.5 inline-block"
+            class="bg-stone-700 text-white md:bg-orange-700 md:text-orange-50 rounded py-0.5 px-1.5 mx-1.5 inline-block cursor-pointer hover:shadow-lg"
           >
             {{ area }}
           </li>

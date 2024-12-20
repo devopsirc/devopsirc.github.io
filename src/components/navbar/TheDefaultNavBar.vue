@@ -1,9 +1,9 @@
 <script setup>
-import { useRoute, useRouter } from 'vue-router'
+import { useRouter } from 'vue-router'
 import { computed } from 'vue'
 
-const routes = useRouter().options.routes
-const path = computed(() => useRoute().path)
+const router = useRouter()
+const path = computed(() => router.currentRoute.value.path)
 </script>
 
 <template>
@@ -13,7 +13,7 @@ const path = computed(() => useRoute().path)
     </div>
     <div class="flex justify-end items-center w-full h-full">
       <router-link
-        v-for="route in routes"
+        v-for="route in router.options.routes"
         :key="route.id"
         :to="route.path"
         class="nav-item"

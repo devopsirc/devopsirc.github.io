@@ -40,7 +40,7 @@ function toogle() {
         leave-to="opacity-0 translate-h-0"
       >
         <div
-          class="bg-white shadow-sm shadow-stone-500/50 text-black absolute fixed-top ml-3 w-100 space-y-1 pl-8 pr-28 py-3"
+          class="bg-white shadow-md shadow-stone-500/50 text-black absolute fixed-top w-full -ml-4 mt-2 space-y-2 px-8 py-5 z-50"
         >
           <router-link
             @click="state.open = false"
@@ -55,3 +55,9 @@ function toogle() {
     </TransitionRoot>
   </div>
 </template>
+
+<style lang="postcss" scoped>
+  a {
+    @apply text-stone-700
+  }
+</style>
