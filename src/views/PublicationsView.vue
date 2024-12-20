@@ -24,7 +24,7 @@ import publications from '@/assets/data/publications.json'
             >
             <span
               v-if="pub.type.toLowerCase() == 'workshop'"
-              class="badge-base bg-gray-400 text-gray-50"
+              class="badge-base bg-gray-500 text-gray-50"
               >{{ pub.type }}</span
             >
             <span
