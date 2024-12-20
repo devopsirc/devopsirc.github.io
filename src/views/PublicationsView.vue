@@ -6,17 +6,17 @@ import publications from '@/assets/data/publications.json'
   <div class="page publications mb-20">
     <h1 class="font-bold text-3xl">Publications</h1>
     <p class="text-xl"></p>
-    <div class="mt-8" v-for="pub in publications" :key="pub.id">
-      <div class="flex space-x-8">
-        <div class="mt-1 text-lg">{{ pub.year }}</div>
+    <div class="mt-4 md:mt-8" v-for="pub in publications" :key="pub.id">
+      <div class="flex space-x-4 md:space-x-8">
+        <div class="text-base md:text-lg">{{ pub.year }}</div>
         <div>
-          <div class="">
-            <p class="text-lg">{{ pub.authors }}</p>
-            <p v-if="pub.link == ''" class="text-lg font-bold">{{ pub.title }}</p>
-            <p v-else class="text-lg font-bold"><a :href="pub.link" target="_blank" class="text-black">{{ pub.title }}</a></p>
-            <p class="text-lg text-gray-500 -mt-1">{{ pub.venue }}</p>
+          <div>
+            <p v-if="pub.link == ''" class="text-base md:text-lg font-bold">{{ pub.title }}</p>
+            <p v-else class="text-base md:text-lg font-bold"><a :href="pub.link" target="_blank" class="text-black">{{ pub.title }}</a></p>
+            <p class="text-base md:text-lg">{{ pub.authors }}</p>
+            <p class="text-base md:text-lg text-gray-500 -mt-1">{{ pub.venue }}</p>
           </div>
-          <div class="">
+          <div>
             <span
               v-if="pub.type.toLowerCase() == 'conference'"
               class="badge-base bg-red-600 text-red-50"
