@@ -3,7 +3,7 @@
     ref="el"
     :class="[
       'transition-all duration-1000',
-      moreDelay ? 'delay-500' : 'delay-300',
+      moreDelay ? 'delay-500' : 'delay-100',
       trueCount < 1 && translateEffect
         ? isVisible
           ? transtionPosition[transition].from
