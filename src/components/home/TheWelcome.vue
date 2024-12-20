@@ -47,7 +47,7 @@ let areas = [
 
         <p class="md:text-lg my-4">
           Led by Dr. Francis Bordeleau at
-          <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> and
+          <a href="https://etsmtl.ca" target="_blank">École de technologie supérieure</a> (ÉTS) and
           industry partners Kaloom and <a href="https://www.telus.com/" target="_blank">TELUS</a>,
           the Kaloom-TELUS ÉTS IRC in DevOps investigate new DevOps engineering approaches
           leveraging data science and AI, to help software organizations design novel IT services
