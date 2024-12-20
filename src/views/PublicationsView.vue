@@ -12,7 +12,8 @@ import publications from '@/assets/data/publications.json'
         <div>
           <div class="">
             <p class="text-lg">{{ pub.authors }}</p>
-            <p class="text-lg font-bold">{{ pub.title }}</p>
+            <p v-if="pub.link == ''" class="text-lg font-bold">{{ pub.title }}</p>
+            <p v-else class="text-lg font-bold"><a :href="pub.link" target="_blank" class="text-black">{{ pub.title }}</a></p>
             <p class="text-lg text-gray-500 -mt-1">{{ pub.venue }}</p>
           </div>
           <div class="">
