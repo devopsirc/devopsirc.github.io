@@ -9,7 +9,7 @@ const path = computed(() => router.currentRoute.value.path)
 <template>
   <nav class="nav-default fixed-top">
     <div class="w-full">
-      <h1 class="text-3xl font-bold"><router-link to="/">ÉTS DevOps IRC</router-link></h1>
+      <h1 class="text-3xl font-bold"><router-link class="hover:no-underline" to="/">ÉTS DevOps IRC</router-link></h1>
     </div>
     <div class="flex justify-end items-center w-full h-full">
       <router-link

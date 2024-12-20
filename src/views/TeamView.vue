@@ -15,7 +15,7 @@ const getImagePath = (name) => {
     <h1 class="font-bold text-3xl">People</h1>
     <p class="text-xl">Professors, Students, and Interns</p>
     
-    <div class="grid grid-cols-1 md:grid-cols-4 mt-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 mt-12 space-x-2">
       <div class="flex flex-col items-center my-8" v-for="person in persons" :key="person.name">
         <img :src="getImagePath(person.picture)" class="h-48 w-48 rounded-full" :alt="person.name" />
         <p class="text-center text-xl font-bold mt-4">{{ person.name }}</p>

@@ -39,7 +39,7 @@ let areas = [
         >
           <div class="mt-6 md:mt-12 mb-4">
             <h2 class="text-xl md:text-2xl font-bold">Intelligent DevOps through AI and Analytics </h2>
-            <h4 class="text-lg md:text-xl text-stone-500">
+            <h4 class="text-lg md:text-xl text-stone-400">
               Helping companies react more quickly and effectively
             </h4>
           </div>
@@ -77,7 +77,7 @@ let areas = [
         <ScrollTransition transition="vertical" opacityEffect="true" translateEffect="true">
           <div class="mt-6 md:mt-12 mb-4">
             <h2 class="text-xl md:text-2xl font-bold">DevOps for Agile Network Softwarization</h2>
-            <h4 class="text-lg md:text-xl text-stone-500">
+            <h4 class="text-lg md:text-xl text-stone-400">
               Building innovative DevOps tools to streamline development of SDNs
             </h4>
           </div>
@@ -111,7 +111,7 @@ let areas = [
             <h2 class="text-xl md:text-2xl font-bold">
               Collaboration on Engineering Digital Twins
             </h2>
-            <h4 class="text-lg md:text-xl text-stone-500">
+            <h4 class="text-lg md:text-xl text-stone-400">
               Leveraging DevOps approaches to facilitate DTs engineering
             </h4>
           </div>
@@ -145,7 +145,7 @@ let areas = [
         <ScrollTransition transition="vertical" opacityEffect="true" translateEffect="true">
           <div class="mt-6 md:mt-12 mb-4">
             <h2 class="text-xl md:text-2xl font-bold">Research Areas</h2>
-          <h4 class="text-lg md:text-xl text-stone-500">
+          <h4 class="text-lg md:text-xl text-stone-400">
             Extending the boundaries of cross-disciplinary research fields
           </h4>
           </div>
