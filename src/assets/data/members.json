@@ -1,0 +1,156 @@
+[
+    {
+        "name": "Francis Bordeleau",
+        "title": "Chair Holder | Professor at ÉTS",
+        "picture": "fbordeleau.jpg",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Ali Tizghadam",
+        "title": "TELUS | Associate Professor at ÉTS",
+        "picture": "atizghadam.jpeg",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Jurgen Dingel",
+        "title": "Professor at Queen's University",
+        "picture": "jdingel.jpg",
+        "url": "https://research.cs.queensu.ca/home/dingel/",
+        "active": true
+    },
+    {
+        "name": "Sébastien Mosser",
+        "title": "Professor at McMaster University",
+        "picture": "smosser.png",
+        "url": "https://mosser.github.io/",
+        "active": true
+    },
+    {
+        "name": "Henri Aïdasso",
+        "title": "Ph.D. Student at ÉTS",
+        "picture": "haidasso.jpeg",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Samah Kansab",
+        "title": "Ph.D. Student at ÉTS",
+        "picture": "skansab.png",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Hesham Abbas",
+        "title": "Ph.D. Student at Queen's University",
+        "picture": "avatar.png",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Madonna Fanoos",
+        "title": "Ph.D. Student at Queen's University",
+        "picture": "mfanoos.jpg",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Damien Desvent",
+        "title": "M.Sc. Student at ÉTS",
+        "picture": "ddesvent.jpg",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Corinne Pulgar",
+        "title": "M.Sc. Student at ÉTS",
+        "picture": "cpulgar.jpg",
+        "url": "https://www.linkedin.com/in/corinne-pulgar-12a58190/",
+        "active": true
+    },
+    {
+        "name": "Nathanael Yao",
+        "title": "M.Sc. Student at Queen's University",
+        "picture": "avatar.png",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Alexandre Lachance",
+        "title": "M.Sc. Student at McMaster",
+        "picture": "avatar.png",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Andrew Boulos",
+        "title": "M.Sc. Student at Queen's University",
+        "picture": "avatar.png",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Haiyu Li",
+        "title": "M.Sc. Student at Queen's University",
+        "picture": "avatar.png",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Matthieu Hanania",
+        "title": "M.Eng. Student at ÉTS",
+        "picture": "",
+        "url": "",
+        "active": false
+    },
+    {
+        "name": "Mario Da Cunha",
+        "title": "M.Eng. Student at ÉTS",
+        "picture": "",
+        "url": "",
+        "active": false
+    },
+    {
+        "name": "Baptiste Mouton",
+        "title": "M.Eng. Student at ÉTS",
+        "picture": "",
+        "url": "",
+        "active": false
+    },
+    {
+        "name": "Salim Azharhoussen",
+        "title": "M.Eng. Student at ÉTS",
+        "picture": "",
+        "url": "",
+        "active": false
+    },
+    {
+        "name": "Julien Legault",
+        "title": "M.Sc. Student at ÉTS",
+        "picture": "",
+        "url": "",
+        "active": false
+    },
+    {
+        "name": "Seyedbehnam Mashari",
+        "title": "M.Sc. Student at ÉTS",
+        "picture": "",
+        "url": "",
+        "active": false
+    },
+    {
+        "name": "Alex Sun",
+        "title": "B.Sc. Student at Queen's University",
+        "picture": "avatar.png",
+        "url": "",
+        "active": true
+    },
+    {
+        "name": "Keaton Tom",
+        "title": "B.Sc. Student at Queen's University",
+        "picture": "avatar.png",
+        "url": "",
+        "active": true
+    }
+]
