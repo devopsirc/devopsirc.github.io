@@ -5,10 +5,10 @@
       <div class="mt-4 text-lg grid md:grid-cols-2">
         <div>
           <p>
-            Kaloom-TELUS ÉTS Industrial Research Chair in DevOps <br />
+            <span class="font-semibold">Kaloom-TELUS ÉTS Industrial Research Chair in DevOps</span> <br />
             Software and IT Engineering Department<br />
-            École de technologie supérieure | ÉTS Montréal <br />
-            1100 Rue Notre-Dame Ouest, Office A-4469, Montréal (Québec), H3C 1K3
+            École de technologie supérieure (ÉTS Montréal) <br />
+            <span class="text-stone-500">1100 Rue Notre-Dame Ouest, Office A-4469, Montréal (Québec), H3C 1K3</span>
           </p>
           <p class="text-lg mt-4">
             <span class="font-bold">Phone:</span> (+1) 514 396-8800, poste 8756
