@@ -20,16 +20,6 @@
         "preprint": ""
     },
     {
-        "id": 4,
-        "title": "Build Optimization: A Systematic Literature Review",
-        "authors": "Henri, Aïdasso; Mohammed, Sayagh; Francis, Bordeleau",
-        "year": 2023,
-        "type": "Journal",
-        "venue": "Submitted To: Association for Computing Machinery - Computing Surveys (ACM CSUR)",
-        "link": "",
-        "preprint": ""
-    },
-    {
         "id": 3,
         "title": "Developing a Modular Language Server to Support P4 Developers",
         "authors": "Sébastien, Mosser; Alexandre, Lachance",
