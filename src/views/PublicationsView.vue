@@ -19,18 +19,23 @@ import publications from '@/assets/data/publications.json'
           <div>
             <span
               v-if="pub.type.toLowerCase() == 'conference'"
-              class="badge-base bg-red-600 text-red-50"
+              class="badge-base bg-red-600 text-red-50 text-sm"
               >{{ pub.type }}</span
             >
             <span
               v-if="pub.type.toLowerCase() == 'workshop'"
-              class="badge-base bg-gray-500 text-gray-50"
+              class="badge-base bg-gray-500 text-gray-50 text-sm"
               >{{ pub.type }}</span
             >
             <span
               v-if="pub.type.toLowerCase() == 'journal'"
-              class="badge-base bg-green-600 text-green-50"
+              class="badge-base bg-green-600 text-green-50 text-sm"
               >{{ pub.type }}</span
+            >
+            <span
+              v-if="pub.preprint.toLowerCase() != ''"
+              class="badge-base bg-gray-200"
+              ><a :href="pub.preprint" class="text-gray-900 px-2 text-sm font-bold">arXiv</a></span
             >
           </div>
         </div>

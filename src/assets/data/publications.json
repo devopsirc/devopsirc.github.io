@@ -1,6 +1,6 @@
 [
     {
-        "id": 6,
+        "id": 7,
         "title": "On the Diagnosis of Flaky Job Failures: Understanding and Prioritizing Failure Categories",
         "authors": "Henri, Aïdasso; Francis, Bordeleau; Ali, Tizghadam",
         "year": 2025,
@@ -8,6 +8,16 @@
         "venue": "Just Accepted: International Conference on Software Engineering - Software Engineering in Practice (ICSE-SEIP '25)",
         "link": "",
         "preprint": ""
+    },
+    {
+        "id": 6,
+        "title": "Build Optimization: A Systematic Literature Review",
+        "authors": "Henri, Aïdasso; Francis, Bordeleau; Ali, Tizghadam",
+        "year": 2025,
+        "type": "Journal",
+        "venue": "Submitted To: ACM Computing Surveys (ACM CSUR)",
+        "link": "",
+        "preprint": "https://arxiv.org/abs/2501.11940"
     },
     {
         "id": 5,
